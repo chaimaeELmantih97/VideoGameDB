@@ -4,18 +4,20 @@
     height: 60px;
     background-color: #323a45;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 4;
   }
-  &input-form {
+
+  &-form {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
   }
+
   &-input {
     margin-left: 10px;
     padding: 10px;
@@ -25,10 +27,11 @@
     outline: none;
     border: none;
   }
+
   &-button {
-    outline: none;
     border: none;
-    background-color: #3f51b5;
+    outline: none;
+    background: #3f51b5;
     padding: 10px;
     border-left: 1px solid rgba(0, 0, 0, 0.3);
     border-top-right-radius: 5px;
@@ -37,6 +40,7 @@
     font-weight: 700;
     transition-duration: 0.3s;
     cursor: pointer;
+
     &:hover {
       color: #3f51b5;
       background-color: #fff;
@@ -44,6 +48,7 @@
     }
   }
 }
+
 .logo {
   margin-left: 10px;
   color: #fff;
